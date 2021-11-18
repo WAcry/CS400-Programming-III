@@ -1,0 +1,45 @@
+p3b CONCLUSIONS.TXT
+
+Complete p3b and answer the following questions using results of running JDK Mission Control to justify your conclusions..
+
+1) What can you tell about the performance of your hash table implementation compared to Java's tree map? 
+
+Explain why (or when) your hash table is better or worse than Java's Tree Map.
+Based on Java Application Analysis, I could say that my hash table implementation has a better
+performance on insertions and retrieves if given a proper size. I set the hashtable size
+as 499979, which is just the right size. When hashtable has a big enough size, it's complexity
+for get and inserts is nearly O(1), which is better than treemap's O(log N) complexity.
+
+
+
+2) What did you observe in jdk mission control to come to the conclusion above?
+
+I noticed that for get() methods, hashtable is much better than treemap. But for insertions,
+hashtable still does better than treemap, but the difference is not that big. In "method polling"
+page, it shows that hashtable indeed does much better than treemap even for insertions, but in
+"memory usage" page, they have a similar performance, which influence the total comparison.
+
+
+
+3) SCREENSHOT_001.PNG NOTES: Briefly describe what this image 001 shows
+
+SCREENSHOT_001.PNG: This screenshot shows that for "method polling", hashtable has a much better
+performance than treemap for both insertions and retrieves.
+
+
+
+4) SCREENSHOT_002.PNG NOTES: Briefly describe what this image 002 shows
+
+SCREENSHOT_002.PNG: This screenshot shows that for "memory usage", hashtable has similar performance
+with treemap for insertion. By the way, both of the data structure's get() methods are doing too nice
+and cannot be compared.
+
+
+
+5) Describe other screenshots if you include them in your submission.
+
+SCREENSHOT_003.PNG: This screenshot shows that overall hashtable has a better performance in both
+retrieves and insertions. Hashtable's get() does much better than treemap's. However, because of the
+large memory usage in this testing, hashtable's insert() doesn't have a huge advantage over treemap's.
+Especially, this test is not so fair for hashtable. In fact, for a random-number insertion, hashtable
+would show a much better advantage over treemap.

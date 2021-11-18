@@ -1,0 +1,71 @@
+Name: Ziyuan Zhang, Email: zzhang949@wisc.edu, LEC: 001
+Welcome to the cipher machine!
+
+What you can do:
+Type 1: Encrypt a sentence
+Type 2: Decode a sentence
+Type 3: Decode a txt file
+Type 4: Quit the cipher machine
+aa
+Enter 1 or 2 or 3 or 4 only.
+
+What you can do:
+Type 1: Encrypt a sentence
+Type 2: Decode a sentence
+Type 3: Decode a txt file
+Type 4: Quit the cipher machine
+0
+Enter 1 or 2 or 3 or 4 only.
+
+What you can do:
+Type 1: Encrypt a sentence
+Type 2: Decode a sentence
+Type 3: Decode a txt file
+Type 4: Quit the cipher machine
+1
+Enter a sentence need to be encrypted:
+I am happy!
+Enter an integer key between 1~1000 :
+3
+The sentence has be encrypted:
+L#dp#kdss|$
+
+What you can do:
+Type 1: Encrypt a sentence
+Type 2: Decode a sentence
+Type 3: Decode a txt file
+Type 4: Quit the cipher machine
+2
+Enter a cipher need to be decoded:
+L#dp#kdss|$
+Enter the integer key between 1~1000 :
+a
+Enter the integer key between 1~1000 :
+0
+Enter the integer key between 1~1000 :
+3
+The sentence has be decoded:
+I am happy!
+
+What you can do:
+Type 1: Encrypt a sentence
+Type 2: Decode a sentence
+Type 3: Decode a txt file
+Type 4: Quit the cipher machine
+3
+Enter the integer key between 1~1000: 3
+Enter an existed encrypted filename need to be decoded: a.a
+Enter an existed encrypted filename need to be decoded: input.txt
+The un-encrypted text is:
+I am happy!
+Decode successful, the result is saved in output.txt
+
+What you can do:
+Type 1: Encrypt a sentence
+Type 2: Decode a sentence
+Type 3: Decode a txt file
+Type 4: Quit the cipher machine
+4
+The machine stops.
+
+Process finished with exit code 0

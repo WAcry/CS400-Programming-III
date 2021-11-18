@@ -1,0 +1,93 @@
+Name: Ziyuan Zhang, Email: zzhang949@wisc.edu, LEC: 001
+Welcome to the cipher machine!
+What you can do:
+Type 1: Encrypt a sentence
+Type 2: Decode a sentence
+Type 3: Decode a txt file
+Type 4: Quit the cipher machine
+a
+Wrong command. Try again！
+Enter 1 or 2 or 3 or 4 only.
+
+What you can do:
+Type 1: Encrypt a sentence
+Type 2: Decode a sentence
+Type 3: Decode a txt file
+Type 4: Quit the cipher machine
+5
+Wrong command. Try again！
+Enter 1 or 2 or 3 or 4 only.
+
+What you can do:
+Type 1: Encrypt a sentence
+Type 2: Decode a sentence
+Type 3: Decode a txt file
+Type 4: Quit the cipher machine
+1
+Enter a sentence need to be encrypted:
+I like pie.
+Enter an integer key between 1~1000 :
+a
+The key must be an integer. Try again!
+Enter an integer key between 1~1000 :
+-1
+The integer key must between 1 ~ 1000. Try again!
+Enter an integer key between 1~1000 :
+123
+The sentence has be encrypted:
+Ҭ҃ӏӌӎӈ҃ӓӌӈґ
+What you can do:
+Type 1: Encrypt a sentence
+Type 2: Decode a sentence
+Type 3: Decode a txt file
+Type 4: Quit the cipher machine
+2
+Enter a cipher need to be decoded:
+Ҭ҃ӏӌӎӈ҃ӓӌӈґ
+Enter the integer key between 1~1000 :
+9999
+The integer key must between 1 ~ 1000. Try again!
+Enter the integer key between 1~1000 :
+a
+The key must be an integer. Try again!
+Enter the integer key between 1~1000 :
+123
+The sentence has be decoded:
+I like pie.
+What you can do:
+Type 1: Encrypt a sentence
+Type 2: Decode a sentence
+Type 3: Decode a txt file
+Type 4: Quit the cipher machine
+3
+Enter the integer key between 1~1000 :
+a
+The key must be an integer. Try again!
+Enter the integer key between 1~1000 :
+0
+The key must between 1 ~ 1000. Try again!
+Enter the integer key between 1~1000 :
+1001
+The key must between 1 ~ 1000. Try again!
+Enter the integer key between 1~1000 :
+222
+Enter an existed encrypted filename need to be decoded: 
+NotExist.file
+The file must exist. Try again!
+Enter an existed encrypted filename need to be decoded: 
+input.txt
+The un-encrypted text is:
+I was happy...
+ILUT
+AZaz！.
+I feel confused.
+Decode successful, the result is saved in output.txt
+What you can do:
+Type 1: Encrypt a sentence
+Type 2: Decode a sentence
+Type 3: Decode a txt file
+Type 4: Quit the cipher machine
+4
+The machine stops.
+
+Process finished with exit code 0
